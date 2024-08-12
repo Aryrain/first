@@ -1,0 +1,40 @@
+:root{
+    --prime-color: #3498db;
+    --seco-color: #2ecc71;
+    --font-family: 'Arial, sans-serif';
+}
+
+@property --main-bg-color{
+    syntax:'<color>';
+    inherits: false;
+    intitial-value: rgb(167, 123, 123);
+}
+
+body{
+    font-family: var(--font-family);
+    background-color: var(--main-bg-color);
+    align-items: center;
+}
+
+header{
+    text-align:center;
+}
+
+header img{
+    max-width: 50px;
+}
+
+#login{
+    width:100%;
+    padding: 20px;
+
+}
+
+button:hover{
+    border-color: var(--seco-color);
+}
+h2{
+    width:100px;
+    padding:2px 2px 2px 2px;
+    border: 2px solid rgb(201, 21, 21);
+}
